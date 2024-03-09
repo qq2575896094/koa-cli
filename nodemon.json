@@ -1,0 +1,10 @@
+{
+  "delay": 1000,
+  "verbose": false,
+  "exec": "ts-node -r tsconfig-paths/register src/index.ts",
+  "ignore": [
+    "node_modules"
+  ],
+  "watch": ["./src", "./conf"],
+  "ext": "ts"
+}
